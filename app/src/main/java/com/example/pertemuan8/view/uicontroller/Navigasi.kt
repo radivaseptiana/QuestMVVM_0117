@@ -22,3 +22,11 @@ enum class Navigasi {
     Detail
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun SiswaApp(
+    //edit 1 : parameter viewModel
+    modifier: Modifier = Modifier,
+    viewModel: SiswaViewModel = viewModel(),
+    navController: NavHostController = rememberNavController()
+){
