@@ -1,4 +1,5 @@
 package com.example.pertemuan8.model
 
-class Siswa {
-}
+data class Siswa (
+
+)
